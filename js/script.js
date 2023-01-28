@@ -19,7 +19,7 @@ if (userAge <= 6) {
          break;
       case "пепси":
          let menuListOfFast = prompt("Какое блюда хотите попробовать Бургер/Крылошки/Шаурма").trim().toLowerCase();
-         if (menuListOfFast === "Бургер" || menuListOfVino === "Крылошки" || menuListOfVino === "Шаурма") {
+         if (menuListOfFast === "Бургер" || menuListOfFast === "Крылошки" || menuListOfFast === "Шаурма") {
             alert("Заказ будет выполнен через 15 минут!")
          } else {
             alert("В в меню такого блюда нет")
@@ -27,7 +27,7 @@ if (userAge <= 6) {
          break;
       case "спрайт":
          let menuListOfFastS = prompt("Какое блюда хотите попробовать Бургер/Крылошки/Шаурма").trim().toLowerCase();
-         if (menuListOfFastS === "Бургер" || menuListOfVino === "Крылошки" || menuListOfVino === "Шаурма") {
+         if (menuListOfFastS === "Бургер" || menuListOfFastS === "Крылошки" || menuListOfFastS === "Шаурма") {
             alert("Заказ будет выполнен через 15 минут!")
          } else {
             alert("В в меню такого блюда нет")
@@ -35,7 +35,7 @@ if (userAge <= 6) {
          break;
       case "кола":
          let menuListOfFastС = prompt("Какое блюда хотите попробовать Бургер/Крылошки/Шаурма").trim().toLowerCase();
-         if (menuListOfFastС === "Бургер" || menuListOfVino === "Крылошки" || menuListOfVino === "Шаурма") {
+         if (menuListOfFastС === "Бургер" || menuListOfFastС === "Крылошки" || menuListOfFastС === "Шаурма") {
             alert("Заказ будет выполнен через 15 минут!")
          } else {
             alert("В в меню такого блюда нет")
@@ -48,32 +48,32 @@ if (userAge <= 6) {
             let listP = prompt("Что вы хотите попрабовать Вино/Пепси/Спрайт/Кола");
             switch (listP) {
                case "Вино":
-                  let menuListOfVino = prompt("Какое блюда хотите попробовать стейк средний прожарки/стейк выший прожарки/стейк малой прожарки").trim().toLowerCase();
-                  if (menuListOfVino === "стейк средний прожарки" || menuListOfVino === "стейк выший прожарки" || menuListOfVino === "стейк малой прожарки") {
+                  let menuListOfVinoone = prompt("Какое блюда хотите попробовать стейк средний прожарки/стейк выший прожарки/стейк малой прожарки").trim().toLowerCase();
+                  if (menuListOfVinoone === "стейк средний прожарки" || menuListOfVinoone === "стейк выший прожарки" || menuListOfVinoone === "стейк малой прожарки") {
                      alert("Заказ будет выполнен через 15 минут!")
                   } else {
                      alert("В в меню такого блюда нет")
                   }
                   break;
                case "Пепси":
-                  let menuListOfFast = prompt("Какое блюда хотите попробовать Бургер/Крылошки/Шаурма").trim().toLowerCase();
-                  if (menuListOfFast === "Бургер" || menuListOfVino === "Крылошки" || menuListOfVino === "Шаурма") {
+                  let menuListOfFastY = prompt("Какое блюда хотите попробовать Бургер/Крылошки/Шаурма").trim().toLowerCase();
+                  if (menuListOfFastY === "Бургер" || menuListOfFastY === "Крылошки" || menuListOfFastY === "Шаурма") {
                      alert("Заказ будет выполнен через 15 минут!")
                   } else {
                      alert("В в меню такого блюда нет")
                   }
                   break;
                case "Спрайт":
-                  let menuListOfFastS = prompt("Какое блюда хотите попробовать Бургер/Крылошки/Шаурма").trim().toLowerCase();
-                  if (menuListOfFastS === "Бургер" || menuListOfVino === "Крылошки" || menuListOfVino === "Шаурма") {
+                  let menuListOfFastSY = prompt("Какое блюда хотите попробовать Бургер/Крылошки/Шаурма").trim().toLowerCase();
+                  if (menuListOfFastSY === "Бургер" || menuListOfFastSY === "Крылошки" || menuListOfFastSY === "Шаурма") {
                      alert("Заказ будет выполнен через 15 минут!")
                   } else {
                      alert("В в меню такого блюда нет")
                   }
                   break;
                case "Кола":
-                  let menuListOfFastС = prompt("Какое блюда хотите попробовать Бургер/Крылошки/Шаурма").trim().toLowerCase();
-                  if (menuListOfFastС === "Бургер" || menuListOfVino === "Крылошки" || menuListOfVino === "Шаурма") {
+                  let menuListOfFastСY = prompt("Какое блюда хотите попробовать Бургер/Крылошки/Шаурма").trim().toLowerCase();
+                  if (menuListOfFastСY === "Бургер" || menuListOfFastСY === "Крылошки" || menuListOfFastСY === "Шаурма") {
                      alert("Заказ будет выполнен через 15 минут!")
                   } else {
                      alert("В в меню такого блюда нет")
